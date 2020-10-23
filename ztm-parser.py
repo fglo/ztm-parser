@@ -277,9 +277,9 @@ class ComplexEncoder(json.JSONEncoder):
 
 def printHelp():
     print('ZTM PARSER:')
-    print('  HELP: python parser.py help')
-    print('  PARSER: python parser.py <FILEPATH>')
-    print('  CHANGE OUTPUT: python parser.py <FILEPATH> -out <OUTPUT VARIANTS>')
+    print('  HELP: python ztm-parser.py help')
+    print('  PARSER: python ztm-parser.py <FILEPATH>')
+    print('  CHANGE OUTPUT: python ztm-parser.py <FILEPATH> -out <OUTPUT VARIANTS>')
     print('    OUTPUT VARIANTS:')
     print('      -out json')
     print('      -out csv')
